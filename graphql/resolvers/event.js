@@ -37,7 +37,7 @@ module.exports = {
     try {
       const creator = await User.findById(req.userId);
       creator.createdEvents.push(event);
-      console.log(event)
+      console.log(event);
       event.bookedUsers.push(creator);
       await creator.save();
       const saved = await event.save();
