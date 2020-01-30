@@ -14,6 +14,5 @@ Built with Node(Express) and GraphQL
 * Cancel booking for looged in user.
 * Retrive all booking for looged in user.
 
-Full [Docomantaion](https://aviad-ariel.github.io/Event-booking-GraphQL-API/doc/schema/index.html).
 
 
